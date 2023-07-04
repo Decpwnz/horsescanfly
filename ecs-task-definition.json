@@ -1,9 +1,9 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:eu-north-1:375157271503:task-definition/sample-fargate:2",
+  "taskDefinitionArn": "arn:aws:ecs:eu-north-1:375157271503:task-definition/horsescanfly-task:1",
   "containerDefinitions": [
       {
-          "name": "fargate-app",
-          "image": "375157271503.dkr.ecr.eu-north-1.amazonaws.com/horsescanfly:8f0a5a70fe096a7633c079b7255b96c59fa337d4",
+          "name": "horsescanfly-container",
+          "image": "375157271503.dkr.ecr.eu-north-1.amazonaws.com/horsescanfly:f9b5b3378bf2625f53f3371c71bbd98aab5b94d5",
           "cpu": 0,
           "portMappings": [
               {
