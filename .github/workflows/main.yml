@@ -19,9 +19,9 @@ env:
              # set this to your Amazon ECR repository name
   ECS_SERVICE: horsescanfly-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: horsescanfly-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: ./ecs-task-definition.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: ./task-definition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: horsescanfly-app           # set this to the name of the container in the
+  CONTAINER_NAME: horsescanfly-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 jobs:

@@ -52,3 +52,8 @@
     "registeredBy": "arn:aws:iam::375157271503:root",
     "tags": []
 }
+
+aws ecs describe-task-definition \
+  --task-definition horsescanfly-task \
+  --region eu-north-1 \
+  --query taskDefinition > task-definition.json
