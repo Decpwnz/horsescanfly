@@ -3,7 +3,7 @@
   "containerDefinitions": [
       {
           "name": "fargate-app",
-          "image": "public.ecr.aws/docker/library/httpd:latest",
+          "image": "375157271503.dkr.ecr.eu-north-1.amazonaws.com/horsescanfly:8f0a5a70fe096a7633c079b7255b96c59fa337d4",
           "cpu": 0,
           "portMappings": [
               {
