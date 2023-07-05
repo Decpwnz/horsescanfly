@@ -31,7 +31,7 @@ env:
 
 on:
   push:
-    branches: [ master ]
+    branches: [ $default-branch ]
   workflow_dispatch:
 
 permissions:
