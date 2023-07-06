@@ -34,7 +34,7 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
-# you can actually delete all of this
+# you can actually delete all of thiss
 # permissions:
 #   contents: read
 
