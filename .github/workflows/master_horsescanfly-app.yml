@@ -30,8 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: |
-          index.docker.io/${{ secrets.AzureAppService_ContainerUsername_0044229bd6c74b91b55c20962b8c28dd }}/deccc/horsescanfly:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_0044229bd6c74b91b55c20962b8c28dd }}/deccc/horsescanfly:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
