@@ -1,5 +1,4 @@
-name: Node.js 18 React CI
-run-name: ${{ github.actor }} is here. Let's see what we got!
+name: Build and deploy a container to dockhub
 
 on:
   push:
