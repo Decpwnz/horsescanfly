@@ -69,7 +69,7 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
-        ECR_REGISTRY: public.ecr.aws/y2l6r7c4/horsescanfly
+        ECR_REGISTRY: public.ecr.aws/y2l6r7c4
         IMAGE_TAG: latest
       run: |
         # Build a docker container and
