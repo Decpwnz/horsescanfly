@@ -40,6 +40,8 @@ env:
   CONTAINER_NAME: horsescanfly-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
+#new day new tries
+
 permissions:
   contents: read
 
