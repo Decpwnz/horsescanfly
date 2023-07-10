@@ -42,8 +42,8 @@ env:
 
 #new day new tries
 
-permissions:
-  contents: read
+# permissions:
+#   contents: read
 
 jobs:
   deploy:
